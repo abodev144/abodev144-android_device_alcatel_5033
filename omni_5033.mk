@@ -24,13 +24,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 PRODUCT_COPY_FILES += \
-    device/Alcatel/5033/recovery.fstab:recovery/root/recovery.fstab
+    device/alcatel/5033/recovery.fstab:recovery/root/etc/recovery.fstab
 
 PRODUCT_DEVICE := 5033
 PRODUCT_NAME := omni_5033
-PRODUCT_BRAND := Alcatel
+PRODUCT_BRAND := alcatel
 PRODUCT_MODEL := alcatel 1 2018
-PRODUCT_MANUFACTURER := Alcatel
+PRODUCT_MANUFACTURER := alcatel
 
 
 
